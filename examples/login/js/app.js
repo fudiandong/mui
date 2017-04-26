@@ -96,7 +96,7 @@
 	};
 
 	/**
-	 * 获取应用本地配置
+	 * 设置应用本地配置
 	 **/
 	owner.setSettings = function(settings) {
 		settings = settings || {};
@@ -104,7 +104,7 @@
 	}
 
 	/**
-	 * 设置应用本地配置
+	 * 获取应用本地配置
 	 **/
 	owner.getSettings = function() {
 			var settingsText = localStorage.getItem('$settings') || "{}";
